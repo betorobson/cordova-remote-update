@@ -18,6 +18,12 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -30,6 +36,18 @@
                         },
                         {
                             "xml": "<feature name=\"FileTransfer\"><param name=\"ios-package\" value=\"CDVFileTransfer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"ios-package\" value=\"CDVSpinnerDialog\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -45,6 +63,15 @@
             "PACKAGE_NAME": "com.robertorobson.cordovaremoteupdate"
         },
         "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.robertorobson.cordovaremoteupdate"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.robertorobson.cordovaremoteupdate"
+        },
+        "hu.dpal.phonegap.plugins.SpinnerDialog": {
+            "PACKAGE_NAME": "com.robertorobson.cordovaremoteupdate"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.robertorobson.cordovaremoteupdate"
         }
     },

@@ -24,6 +24,7 @@ var app = {
 
 	onDeviceReady: function() {
 		console.log('device ready');
+		app.wrapper();
 	},
 
 	onResume: function() {
@@ -48,6 +49,10 @@ var app = {
 				}
 			);
 		}
+	},
+
+	wrapper: function(){
+		document.querySelector('#appWrapper').innerHTML = 'Hello world 011';
 	}
 
 };
@@ -58,3 +63,6 @@ var bootstrapCallback = function(){
 };
 
 app.initialize();
+
+// DO NOT REMOVE NOTHING BELLOW
+window.BOOTSTRAP_OK = true;

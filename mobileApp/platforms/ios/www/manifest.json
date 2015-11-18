@@ -1,0 +1,22 @@
+{
+    "files": {
+        "js_autoupdate.js": {
+            "filename": "js/autoupdate.js",
+            "version": "e6f78a70ad85c48e110593396fad2f526d8d3cf466fce7b44c1479fdc4115cf0"
+        },
+        "js_app.js": {
+            "filename": "js/app.js",
+            "version": "821714267685d2e79130ca899b8a6ad07f1ab07bf6e55d8341bf5dd58906416f"
+        },
+        "js_timestamp.js": {
+            "filename": "js/timestamp.js",
+            "version": "42b3b700b0f03ec7c9322213bac0bba6f132da107501776c4f2a2d7561e34b1c"
+        }
+    },
+    "load": [
+        "js/autoupdate.js",
+        "js/app.js",
+        "js/timestamp.js"
+    ],
+    "root": "./"
+}
