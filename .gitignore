@@ -1,0 +1,11 @@
+remote-files/
+remote-files/**
+
+node_modules/**
+!node_modules/gulp-cordova-app-loader-manifest
+
+mobile-app/www/
+mobile-app/www/**
+
+.DS_Store
+natura.sublime-workspace
