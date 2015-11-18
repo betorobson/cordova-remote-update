@@ -3,7 +3,7 @@
 
 var config = {
 	timestamp: Date.now(),
-	debug: false,
+	dev: true,
 
 	url: null,
 	urlLocal	: 'cordovaremoteupdate.dev', // developer remote files
@@ -11,8 +11,8 @@ var config = {
 
 	// set URL where files are
 	setURL: function(){
-		if(this.debug)
-			this.url = this.urlLocal + this.getDirDest();
+		if(this.dev)
+			this.url = this.urlLocal;
 		else
 			this.url = this.urlProd;
 	}

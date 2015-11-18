@@ -47,10 +47,7 @@ gulp.task('generateManifest', function(){
 			load: [
 				'js/autoupdate.js',
 				'js/app.js',
-				'js/app.min.js',
-				'js/timestamp.js',
-				'css/lib/libs.min.css',
-				'css/app.css'
+				'js/timestamp.js'
 			]
 		}))
 		.pipe(gulp.dest('remote-files/'));
@@ -79,7 +76,7 @@ gulp.task('copyRemoteMobileFolderToMobileFolder', function(){
 
 gulp.task('copyMobileAppFilesToMobileRemoteFolder', function(){
 	return gulp.src([
-			'mobile-app/src/**'
+			'mobileApp/src/**'
 		])
 		.pipe(gulp.dest('remote-files/'));
 });
