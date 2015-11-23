@@ -19,7 +19,7 @@ This instructions presume that you will run it on Mac OS X or Linux Environment.
 6. [for iOS] Xcode 6.4+
 7. [for Android] An Android Device 
 
- * It is not recommended test is on Android Emulator
+ * It is not recommended test it on Android Emulator.
 
 ## What do you need to know:
 
@@ -50,7 +50,7 @@ If are you using apache, you can make it editing the vhost like this example:
     ServerName cordovaremoteupdate.dev
 </VirtualHost>
 ```
- * Do not forget modify the DocumentRoot, you must put there your folder project full path + `\remote-files`
+ * Do not forget modify the DocumentRoot, you must put there your folder project full path + `/remote-files`
 
 #### 5. Host file
 
