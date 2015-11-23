@@ -126,7 +126,7 @@ After that, if you can browse on internet, your are fine to the next step.
 
 ##### 7.3 Testing your remote files on browser
 
-In both of your devices, open a broser and type `http://cordovaremoteupdate.dev/`.
+In both of your devices, open a browser and type `http://cordovaremoteupdate.dev/`.
 You must see a gray color page which containing a pharse: `appWrapper`, it must be the same what happen on step 6.
 
 #### 8. Run gulp
