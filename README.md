@@ -131,7 +131,7 @@ You must see a gray color page which containing a pharse: `appWrapper`, it must 
 
 #### 8. Run gulp
 
-Run the command bellow on terminal, inside your project folder. It will generate all your remote files.
+Run the command bellow on terminal, on your project folder. It will generate all your remote files.
 
 ```bash
 gulp
@@ -161,3 +161,37 @@ Now your remote files were generated. Before compile your app, it would be bette
 
 #### 9. Compile Cordova App Project
 
+Run the commands bellow on `mobileApp` folder which is in your project folder.
+
+```bash
+cordova build android
+cordova build ios
+```
+
+Now, plug your android device and run:
+```bash
+cordova run android
+```
+
+For iOS simulator, you just need run:
+```bash
+cordova run ios
+```
+
+For iOS devices, you need open your project on Xcode, plug a iOS device and then run your project from Xcode.
+
+#### 10. Remote updataing yout app.
+
+After having your project comiled, it is time to remote update it. In order to show how remote update, we will changed a javascript file which has a simple innerHTML instruction.
+
+##### 10.1 Change app.js file
+On your text editor, open `mobileApp/src/js/app.js`. Look at line #55 and change `Hello world 011` to `My app has been remote updated`
+
+##### 10.2 Run Gulp Again
+Now, run gulp tasks again in order to renegerate all source files.
+```bash
+gulp
+```
+##### 10.3 On Devices
+Put your app on background and open up it again. You must see a spinner dialog tell you that your app is updataing.
+After that, the spinner will be close and your app will automatically
