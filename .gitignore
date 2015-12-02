@@ -4,8 +4,5 @@ remote-files/**
 node_modules/**
 !node_modules/gulp-cordova-app-loader-manifest
 
-mobileApp/www/
-mobileApp/www/**
-
 .DS_Store
 natura.sublime-workspace
