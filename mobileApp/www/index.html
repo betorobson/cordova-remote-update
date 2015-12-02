@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cordova Remote Update</title>
+
+		<!-- Enable all requests, inline styles, and eval() -->
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' cdvfile://*; style-src 'unsafe-inline' 'self' cdvfile://*; script-src 'unsafe-inline' 'self' 'unsafe-eval' *">
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+		<script type="text/javascript">
+			window.DEVELOPMENT = true;
+		</script>
+
+		<script src="cordova.js"></script>
+		<script src="js/cordova-app-loader-complete.js"></script>
+
+		<script type="text/javascript" 
+			timeout="5000" 
+			server="http://cordovaremoteupdate.dev/"
+			manifest="manifest.json" 
+			callback="bootstrapCallback"
+			src="js/bootstrap.js"></script>
+
+	</head>
+	<body bgcolor="cccccc">
+
+		appWrapper:
+		<div id="appWrapper"></div>
+
+		<hr />
+		Cordova Remote Update
+
+	</body>
+</html>
