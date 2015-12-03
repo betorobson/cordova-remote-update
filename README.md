@@ -31,7 +31,7 @@ This instructions presume that you will run it on Mac OS X or Linux Environment.
 
 #### 1. Clone this project
 ```bash
-git clone https://bitbucket.org/betorobson/cordova-remote-update.git cordova-remote-update
+git clone https://github.com/betorobson/cordova-remote-update
 ```
 
 #### 2. Install npm packages and run gulp tasks
